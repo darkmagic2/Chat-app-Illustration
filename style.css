@@ -1,0 +1,91 @@
+:root {
+--bs-paleViolet: hsl(276, 100%, 81%);
+--bs-moderateViolet: hsl(276, 55%, 52%);
+--bs-desatureatedDarkViolet: hsl(271, 15%, 43%);
+--bs-grayishBlue: hsl(206,6%,79%);
+--bs-veryDarkDesaturatedViolet: hsl(271, 36%, 24%);
+--bs-darkGrayishViolet: hsl(270, 7%, 64%);
+--bs-lightMagenta: hsl(293, 100%, 63%);
+--bs-lightViolet: hsl(264, 100%, 61%);
+--bs-White: hsl(0, 0%, 100%);
+--bs-lightGrayishViolet: hsl(270, 20%, 96%);
+--bs-veryLightMagenta: hsl(289, 100%, 72%);
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background: var(--bs-lightGrayishViolet);
+}
+
+.graphic1{
+    position: absolute;
+    background: var(--bs-veryLightMagenta);
+    background: linear-gradient(var(--bs-lightMagenta)-60%,var(--bs-lightViolet)90%);
+    width: 50%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    border-radius: 0em 0em 15em 0em;
+    z-index: -1;
+}
+
+.phone{
+    display: block;
+    background: var(--bs-White);
+    margin: 4em auto;
+    width: 15em;
+    border-radius:1.5em;
+    height: 500px;
+    box-shadow: 0px 35px 100px -55px black;
+    z-index: 1;
+    padding: .7em;
+}
+
+.topgraph{
+    background: linear-gradient(90deg, var(--bs-lightViolet)10%,var(--bs-veryLightMagenta)70%);;
+    height: 70px;
+    border-radius: 1.5em 1.5em 0em 0em;
+    margin-top: -1em;
+}
+
+.topgraph img{
+    width: auto;
+    height: 1.5em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: var(--bs-White);
+    border-width: .1em;
+    float: left;
+    margin-top: 1.8em;
+    margin-left: 2em;
+}
+.topgraph p{
+    color:var(--bs-lightGrayishViolet);
+    padding-top: 2em;
+    margin-left: 5em;
+    font-size: .8em;
+}
+
+.topgraph p light{
+    color: var(--bs-paleViolet);
+    font-size: .6em;
+}
+
+.whitetop{
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 5em;
+    margin-left: 3em;
+    margin-top: -.7em;
+    overflow: auto;
+}
+
+.convo{
+    background: var(--bs-lightGrayishViolet);
+    height: 430px;
+    border-radius: 0 0 1em 1em;
+}
