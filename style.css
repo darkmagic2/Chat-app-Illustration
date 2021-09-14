@@ -1,5 +1,6 @@
 :root {
 --bs-paleViolet: hsl(276, 100%, 81%);
+--bs-paleViolet1: hsl(271, 51%, 92%);
 --bs-moderateViolet: hsl(276, 55%, 52%);
 --bs-desatureatedDarkViolet: hsl(271, 15%, 43%);
 --bs-grayishBlue: hsl(206,6%,79%);
@@ -62,7 +63,7 @@ body{
 }
 .topgraph p{
     color:var(--bs-lightGrayishViolet);
-    padding-top: 2em;
+    padding-top: 2.3em;
     margin-left: 5em;
     font-size: .8em;
 }
@@ -88,4 +89,207 @@ body{
     background: var(--bs-lightGrayishViolet);
     height: 430px;
     border-radius: 0 0 1em 1em;
+    margin-top: 0;
+}
+
+.bubble1{
+    padding: .8em;
+    font-size: .4rem;
+    max-width: 50%;
+    background: var(--bs-paleViolet1);
+    border-radius: .7em .7em .7em .3em;
+    color: var(--bs-lightViolet);
+    position: static;
+    margin-top: -0.8em;
+    font-weight: 500;
+    margin-left: 1em;
+}
+.bubble2{
+    padding: .8em;
+    font-size: .4rem;
+    max-width: 50%;
+    background: var(--bs-paleViolet1);
+    border-radius: .7em .7em .7em .3em;
+    color: var(--bs-lightViolet);
+    margin-top: 1em;
+    font-weight: 500;
+    margin-left: 1em;
+}
+
+.dogs{
+    display: flex;
+    justify-content: right;
+    margin-top: 1em;
+}
+
+.dogs img{
+    height: auto;
+    max-width: 40px;
+    border-radius: .5em;
+    margin-right: .4em
+}
+
+.bubble3{
+    padding: .8em;
+    font-size: .4rem;
+    max-width: 50%;
+    background: var(--bs-White);
+    border-radius: .7em .7em .3em .7em;
+    color: var(--bs-veryDarkDesaturatedViolet);
+    position: static;
+    margin-top: 1em;
+    font-weight: 500;
+    margin-left: 13em;
+    box-shadow: 0px 2px 15px -7px gray;
+}
+.bubble4{
+    padding: .8em;
+    font-size: .4rem;
+    background: var(--bs-White);
+    border-radius: .7em .7em .3em .7em;
+    color: var(--bs-veryDarkDesaturatedViolet);
+    margin-top: 1em;
+    font-weight: 500;
+    margin-left: 19em;
+    display: flex;
+    justify-content: right;
+    margin-right: .5em;
+    box-shadow: 0px 2px 15px -6px gray;
+}
+
+.bubble5{
+    padding: .8em;
+    font-size: .4rem;
+    max-width: 50%;
+    background: var(--bs-paleViolet1);
+    border-radius: .7em .7em .7em .3em;
+    color: var(--bs-lightViolet);
+    margin-top: 1em;
+    font-weight: 500;
+    margin-left: 1em;
+}
+/* bubble 6 stuff */
+.bubble6{
+    background: linear-gradient(90deg, var(--bs-veryLightMagenta)10%,var(--bs-lightViolet)70%);
+    max-width: 70%;
+    margin-top: .5em;
+    margin-left: .8em;
+    padding: 3px;
+    border-radius: .7em .7em .7em .3em;
+    color: var(--bs-White);
+    text-align: center;
+    font-size: .5rem;
+}
+.button1{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+.button1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--bs-g);
+    border-width: .5px;
+    margin-left: 5px;
+    margin-top: 8px;
+  }
+
+.button1:hover input ~ .checkmark {
+    background-color: var(--bs-veryLightMagenta);
+  }
+
+.button1 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+.bubble6 p{
+    margin-left: 1em;
+    margin-top: -.5em;
+    color: rgb(241, 241, 241);
+}
+
+.bubble6 p bold{
+    margin-left: 1em;
+    font-size: .8rem;
+    font-weight: 700;
+    color:var(--bs-White);
+}
+/* bubble 7 stuff */
+
+.bubble7{
+    background: linear-gradient(90deg, var(--bs-veryLightMagenta)10%,var(--bs-lightViolet)70%);
+    max-width: 70%;
+    margin-top: .5em;
+    margin-left: .8em;
+    padding: 3px;
+    border-radius: .7em .7em .7em .3em;
+    color: var(--bs-White);
+    text-align: center;
+    font-size: .5rem;
+}
+.button2{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+.button2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--bs-g);
+    border-width: .5px;
+    margin-left: 5px;
+    margin-top: 8px;
+  }
+
+.button2:hover input ~ .checkmark {
+    background-color: var(--bs-veryLightMagenta);
+  }
+
+.button2 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+.bubble7 p{
+    margin-left: 1em;
+    margin-top: -.5em;
+    color: rgb(241, 241, 241);
+}
+
+.bubble7 p bold{
+    margin-left: 2em;
+    font-size: .8rem;
+    font-weight: 700;
+    color:var(--bs-White);
 }
