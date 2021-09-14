@@ -169,12 +169,13 @@ body{
     margin-left: 1em;
 }
 /* bubble 6 stuff */
+
 .bubble6{
     background: linear-gradient(90deg, var(--bs-veryLightMagenta)10%,var(--bs-lightViolet)70%);
     max-width: 70%;
     margin-top: .5em;
     margin-left: .8em;
-    padding: 3px;
+    padding: .1px;
     border-radius: .7em .7em .7em .3em;
     color: var(--bs-White);
     text-align: center;
@@ -225,8 +226,8 @@ body{
 }
 
 .bubble6 p bold{
-    margin-left: 1em;
-    font-size: .8rem;
+    margin-left: 1.8em;
+    font-size: .7rem;
     font-weight: 700;
     color:var(--bs-White);
 }
@@ -237,7 +238,7 @@ body{
     max-width: 70%;
     margin-top: .5em;
     margin-left: .8em;
-    padding: 3px;
+    padding: .1px;
     border-radius: .7em .7em .7em .3em;
     color: var(--bs-White);
     text-align: center;
@@ -262,15 +263,15 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     background-color: transparent;
     border-radius: 50%;
     border-style: solid;
     border-color: var(--bs-g);
     border-width: .5px;
-    margin-left: 5px;
-    margin-top: 8px;
+    margin-left: 8px;
+    margin-top: 11px;
   }
 
 .button2:hover input ~ .checkmark {
@@ -288,8 +289,24 @@ body{
 }
 
 .bubble7 p bold{
-    margin-left: 2em;
-    font-size: .8rem;
+    margin-left: 3em;
+    font-size: .7rem;
     font-weight: 700;
     color:var(--bs-White);
+}
+
+/* box end*/
+
+.tbox input{
+    margin-top: 2em;
+    margin-left: .5em;
+    width: 85%;
+    border-radius: 2em;
+    padding: 1em;
+    border-style: none;
+}
+
+.tbox input[placeholder]{
+    color: grey;
+    font-size: .7em;
 }
