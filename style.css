@@ -310,3 +310,26 @@ body{
     color: grey;
     font-size: .7em;
 }
+
+.submit{
+    position: absolute;
+    opacity: 0;
+}
+
+.subbut{
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    background-color: var(--bs-veryDarkDesaturatedViolet);
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--bs-g);
+    border-width: 0;
+    margin-left: -25px;
+    margin-top: 28px;
+  }
+
+::placeholder{
+    color: grey;
+    opacity: 50%;
+}
