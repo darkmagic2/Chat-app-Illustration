@@ -35,9 +35,9 @@ body{
     display: block;
     background: var(--bs-White);
     margin: 4em auto;
-    width: 15em;
-    border-radius:1.5em;
-    height: 500px;
+    width: 14.5em;
+    border-radius: 1.5em;
+    height: 480px;
     box-shadow: 0px 35px 100px -55px black;
     z-index: 1;
     padding: .7em;
@@ -87,7 +87,7 @@ body{
 
 .convo{
     background: var(--bs-lightGrayishViolet);
-    height: 430px;
+    height: 410px;
     border-radius: 0 0 1em 1em;
     margin-top: 0;
 }
@@ -101,7 +101,7 @@ body{
     color: var(--bs-lightViolet);
     position: static;
     margin-top: -0.8em;
-    font-weight: 500;
+    font-weight: 400;
     margin-left: 1em;
 }
 .bubble2{
@@ -112,7 +112,7 @@ body{
     border-radius: .7em .7em .7em .3em;
     color: var(--bs-lightViolet);
     margin-top: 1em;
-    font-weight: 500;
+    font-weight: 400;
     margin-left: 1em;
 }
 
@@ -132,14 +132,14 @@ body{
 .bubble3{
     padding: .8em;
     font-size: .4rem;
-    max-width: 50%;
+    width: 52%;
     background: var(--bs-White);
     border-radius: .7em .7em .3em .7em;
     color: var(--bs-veryDarkDesaturatedViolet);
     position: static;
     margin-top: 1em;
-    font-weight: 500;
-    margin-left: 13em;
+    font-weight: 400;
+    margin-left: 12em;
     box-shadow: 0px 2px 15px -7px gray;
 }
 .bubble4{
@@ -149,7 +149,7 @@ body{
     border-radius: .7em .7em .3em .7em;
     color: var(--bs-veryDarkDesaturatedViolet);
     margin-top: 1em;
-    font-weight: 500;
+    font-weight: 400;
     margin-left: 19em;
     display: flex;
     justify-content: right;
@@ -165,7 +165,7 @@ body{
     border-radius: .7em .7em .7em .3em;
     color: var(--bs-lightViolet);
     margin-top: 1em;
-    font-weight: 500;
+    font-weight: 400;
     margin-left: 1em;
 }
 /* bubble 6 stuff */
@@ -298,7 +298,7 @@ body{
 /* box end*/
 
 .tbox input{
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-left: .5em;
     width: 85%;
     border-radius: 2em;
@@ -325,11 +325,36 @@ body{
     border-style: solid;
     border-color: var(--bs-g);
     border-width: 0;
-    margin-left: -25px;
-    margin-top: 28px;
+    margin-left: -27px;
+    margin-top: 24px;
   }
 
 ::placeholder{
     color: grey;
     opacity: 50%;
+}
+
+.asubmit{
+    color: var(--bs-White);
+    font-size: 15px;
+    position: relative;
+    margin-top: -1.8em;
+    margin-left: 13.8em;
+}
+
+.booking{
+    text-align: center;
+    color: var(--bs-veryDarkDesaturatedViolet);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: -.5em;
+}
+
+.description{
+    text-align: center;
+    margin: 0em 2em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+    color: var(--bs-darkGrayishViolet);
+    font-weight: 500;
 }
