@@ -18,8 +18,14 @@
         font-family: 'Rubik', sans-serif;
         background: var(--bs-lightGrayishViolet);
         max-height: 100vh;
+        overflow: hidden;
     }
-    
+    main {
+        width: 100%;
+        min-height: 100vh;
+        overflow: hidden;
+      }
+      
     .graphic1{
         position: absolute;
         background: var(--bs-veryLightMagenta);
@@ -383,7 +389,7 @@
     .phone{
         display: block;
         background: var(--bs-White);
-        margin: 9em 25% 5em;
+        margin: 6em 25% 5em;
         width: 16.5em;
         border-radius: 1.5em;
         height: 670px;
