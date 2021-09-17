@@ -383,7 +383,7 @@
     .phone{
         display: block;
         background: var(--bs-White);
-        margin: 10em 25% 5em;
+        margin: 9em 25% 5em;
         width: 16.5em;
         border-radius: 1.5em;
         height: 670px;
@@ -732,6 +732,5 @@
         margin-top: -5.05em;
         margin-left: 9.6em;
     }
-    
 }
     
