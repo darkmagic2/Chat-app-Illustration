@@ -508,7 +508,7 @@
         background: var(--bs-paleViolet1);
         border-radius: .7em .7em .7em .3em;
         color: var(--bs-lightViolet);
-        margin-top: 1em;
+        margin-top: 1.5em;
         font-weight: 400;
         margin-left: 1em;
     }
@@ -516,7 +516,7 @@
     .dogs{
         display: flex;
         justify-content: right;
-        margin-top: 1em;
+        margin-top: 1.3em;
     }
     
     .dogs img{
@@ -534,7 +534,7 @@
         border-radius: .7em .7em .3em .7em;
         color: var(--bs-veryDarkDesaturatedViolet);
         position: static;
-        margin-top: 1em;
+        margin-top: 1.5em;
         font-weight: 400;
         margin-left: 13.5em;
         box-shadow: 0px 2px 15px -7px gray;
@@ -545,7 +545,7 @@
         background: var(--bs-White);
         border-radius: .7em .7em .3em .7em;
         color: var(--bs-veryDarkDesaturatedViolet);
-        margin-top: 1em;
+        margin-top: 1.5em;
         font-weight: 400;
         margin-left: 19em;
         display: flex;
@@ -561,7 +561,7 @@
         background: var(--bs-paleViolet1);
         border-radius: .7em .7em .7em .3em;
         color: var(--bs-lightViolet);
-        margin-top: 1em;
+        margin-top: 1.5em;
         font-weight: 400;
         margin-left: 1em;
     }
@@ -715,16 +715,23 @@
     
     .subbut{
         position: absolute;
-        height: 23px;
-        width: 23px;
+        height: 33px;
+        width: 33px;
         background-color: var(--bs-veryDarkDesaturatedViolet);
         border-radius: 50%;
         border-style: solid;
         border-color: var(--bs-g);
         border-width: 0;
         margin-left: -10px;
-        margin-top: -30px;
+        margin-top: -45px;
       }
+      .asubmit{
+        color: var(--bs-White);
+        font-size: 30px;
+        position: relative;
+        margin-top: -5.05em;
+        margin-left: 9.6em;
+    }
     
 }
     
