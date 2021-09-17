@@ -378,7 +378,353 @@
 
 @media only screen and (min-width: 1440px) {
     body{
-    font-size: 30px;
+    font-size: 20px;
     }
+    .phone{
+        display: block;
+        background: var(--bs-White);
+        margin: 10em 25% 5em;
+        width: 16.5em;
+        border-radius: 1.5em;
+        height: 670px;
+        box-shadow: 0px 35px 100px -55px black;
+        z-index: 1;
+        padding: .7em;
+    }
+    .graphic1{
+        position: absolute;
+        background: var(--bs-veryLightMagenta);
+        background: linear-gradient(var(--bs-lightMagenta)-60%,var(--bs-lightViolet)90%);
+        width: 35%;
+        height: 900px;
+        top: 0;
+        left: 0;
+        border-radius: 0em 0em 16em 16em;
+        z-index: -1;
+        margin-left: -100px;
+    }
+    .booking{
+        text-align: center;
+        color: var(--bs-veryDarkDesaturatedViolet);
+        font-weight: 700;
+        font-size: 2rem;
+        margin: -10em 0em 0em 15em;
+        width: 500px;
+        font-size: 3rem;
+        opacity: 90%;
+    }
+    
+    .description{
+        text-align: left;
+        margin: 1em 0em 0em 38.5em;
+        margin-bottom: 3em;
+        line-height: 1.5em;
+        color: var(--bs-darkGrayishViolet);
+        font-weight: 500;
+        width: 700px;
+        font-size: 1.2rem;
+    }
+    .attribution{
+        margin-left: 30em;
+    }
+    .graphic2{
+        position: absolute;
+        background: var(--bs-paleViolet);
+        width: 20%;
+        height: 1100px;
+        bottom: 0;
+        right: 0;
+        border-radius: 0em 0em 15em 0em;
+        z-index: -1;
+        transform: rotate(.5turn);
+        opacity: 5%;
+        margin-bottom: -100px;
+    }
+    .convo{
+        background: var(--bs-lightGrayishViolet);
+        height: 590px;
+        border-radius: 0 0 1em 1em;
+        margin-top: 0;
+    }
+    
+    .topgraph{
+        background: linear-gradient(90deg, var(--bs-lightViolet)10%,var(--bs-veryLightMagenta)70%);;
+        height: 90px;
+        border-radius: 1.5em 1.5em 0em 0em;
+        margin-top: -1em;
+    }
+    
+    .topgraph img{
+        width: auto;
+        height: 1.5em;
+        border-radius: 1em;
+        border-style: solid;
+        border-color: var(--bs-White);
+        border-width: .1em;
+        float: left;
+        margin-top: 1.8em;
+        margin-left: 2em;
+    }
+    .topgraph p{
+        color:var(--bs-lightGrayishViolet);
+        padding-top: 2.3em;
+        margin-left: 6em;
+        font-size: .8em;
+    }
+    
+    .topgraph p light{
+        color: var(--bs-paleViolet);
+        font-size: 1em;
+    }
+    
+    .whitetop{
+        background-color: white;
+        width: 180px;
+        height: 35px;
+        z-index: 2;
+        position: absolute;
+        border-radius: 5em;
+        margin-left: 4em;
+        margin-top: -.7em;
+        overflow: auto;
+    }
+    
+    .bubble1{
+        padding: 1em;
+        font-size: .5rem;
+        max-width: 50%;
+        background: var(--bs-paleViolet1);
+        border-radius: .7em .7em .7em .3em;
+        color: var(--bs-lightViolet);
+        position: static;
+        margin-top: -0.8em;
+        font-weight: 400;
+        margin-left: 1em;
+    }
+    .bubble2{
+        padding: 1em;
+        font-size: .5rem;
+        max-width: 50%;
+        background: var(--bs-paleViolet1);
+        border-radius: .7em .7em .7em .3em;
+        color: var(--bs-lightViolet);
+        margin-top: 1em;
+        font-weight: 400;
+        margin-left: 1em;
+    }
+    
+    .dogs{
+        display: flex;
+        justify-content: right;
+        margin-top: 1em;
+    }
+    
+    .dogs img{
+        height: auto;
+        max-width: 55px;
+        border-radius: .5em;
+        margin-right: .4em
+    }
+    
+    .bubble3{
+        padding: 1em;
+        font-size: .5rem;
+        width: 52%;
+        background: var(--bs-White);
+        border-radius: .7em .7em .3em .7em;
+        color: var(--bs-veryDarkDesaturatedViolet);
+        position: static;
+        margin-top: 1em;
+        font-weight: 400;
+        margin-left: 13.5em;
+        box-shadow: 0px 2px 15px -7px gray;
+    }
+    .bubble4{
+        padding: 1em;
+        font-size: .5rem;
+        background: var(--bs-White);
+        border-radius: .7em .7em .3em .7em;
+        color: var(--bs-veryDarkDesaturatedViolet);
+        margin-top: 1em;
+        font-weight: 400;
+        margin-left: 19em;
+        display: flex;
+        justify-content: right;
+        margin-right: .5em;
+        box-shadow: 0px 2px 15px -6px gray;
+    }
+    
+    .bubble5{
+        padding: 1em;
+        font-size: .5rem;
+        max-width: 50%;
+        background: var(--bs-paleViolet1);
+        border-radius: .7em .7em .7em .3em;
+        color: var(--bs-lightViolet);
+        margin-top: 1em;
+        font-weight: 400;
+        margin-left: 1em;
+    }
+    /* bubble 6 stuff */
+    
+    .bubble6{
+        background: linear-gradient(90deg, var(--bs-veryLightMagenta)10%,var(--bs-lightViolet)70%);
+        max-width: 65%;
+        margin-top: 1em;
+        margin-left: .8em;
+        padding: 5px;
+        border-radius: .7em .7em .7em .3em;
+        color: var(--bs-White);
+        text-align: center;
+        font-size: .5rem;
+    }
+    .button1{
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        user-select: none;
+    }
+    .button1 input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+      }
+    
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        background-color: transparent;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: var(--bs-g);
+        border-width: .5px;
+        margin-left: 5px;
+        margin-top: 8px;
+      }
+    
+    .button1:hover input ~ .checkmark {
+        background-color: var(--bs-veryLightMagenta);
+      }
+    
+    .button1 input:checked ~ .checkmark {
+        background-color: #2196F3;
+      }
+    
+    .bubble6 p{
+        margin-left: 1em;
+        margin-top: -.5em;
+        color: rgb(241, 241, 241);
+    }
+    
+    .bubble6 p bold{
+        margin-left: 1.8em;
+        font-size: .7rem;
+        font-weight: 700;
+        color:var(--bs-White);
+    }
+    /* bubble 7 stuff */
+    
+    .bubble7{
+        background: linear-gradient(90deg, var(--bs-veryLightMagenta)10%,var(--bs-lightViolet)70%);
+        max-width: 65%;
+        margin-top: 1em;
+        margin-left: .8em;
+        padding: 5px;
+        border-radius: .7em .7em .7em .3em;
+        color: var(--bs-White);
+        text-align: center;
+        font-size: .5rem;
+    }
+    .button2{
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        user-select: none;
+    }
+    .button2 input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+      }
+    
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 10px;
+        width: 10px;
+        background-color: transparent;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: var(--bs-g);
+        border-width: .5px;
+        margin-left: 8px;
+        margin-top: 11px;
+      }
+    
+    .button2:hover input ~ .checkmark {
+        background-color: var(--bs-veryLightMagenta);
+      }
+    
+    .button2 input:checked ~ .checkmark {
+        background-color: #2196F3;
+      }
+    
+    .bubble7 p{
+        margin-left: 1em;
+        margin-top: -.5em;
+        color: rgb(241, 241, 241);
+    }
+    
+    .bubble7 p bold{
+        margin-left: 3em;
+        font-size: .7rem;
+        font-weight: 700;
+        color:var(--bs-White);
+    }
+    
+    /* box end*/
+    
+    .tbox input{
+        margin-top: 1.5em;
+        margin-left: .5em;
+        width: 85%;
+        border-radius: 2em;
+        padding: 1.5em;
+        border-style: none;
+    }
+    
+    .tbox input[placeholder]{
+        color: grey;
+        font-size: .7em;
+    }
+    
+    .submit{
+        position:relative;
+        opacity: 0;
+    }
+    
+    .subbut{
+        position: absolute;
+        height: 23px;
+        width: 23px;
+        background-color: var(--bs-veryDarkDesaturatedViolet);
+        border-radius: 50%;
+        border-style: solid;
+        border-color: var(--bs-g);
+        border-width: 0;
+        margin-left: -10px;
+        margin-top: -30px;
+      }
+    
 }
     
