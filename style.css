@@ -431,14 +431,14 @@
         position: absolute;
         background: var(--bs-paleViolet);
         width: 20%;
-        height: 1100px;
+        height: 950px;
         bottom: 0;
         right: 0;
         border-radius: 0em 0em 15em 0em;
         z-index: -1;
         transform: rotate(.5turn);
         opacity: 5%;
-        margin-bottom: -100px;
+        margin-bottom: 0;
     }
     .convo{
         background: var(--bs-lightGrayishViolet);
